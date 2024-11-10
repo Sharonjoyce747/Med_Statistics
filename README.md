@@ -28,48 +28,49 @@ Using one-tailed test, paired t-test to measure the effectiveness of the wellnes
 
 Result: Pre-wellness Test
 
-Variable: Stress Level Before
-Sample Size: 15
-Mean: 7 The average value of the stress level before dataset.
-Median: 7 The middle value of the dataset.
-Mode: 8 indicating 8 as the value that appears more than once.
-Standard Deviation: 1.463850109 meaning that there is low variability considering that values cluster closely around the mean, data points are consistent.
-Kurtosis: 1.328205128 Kurtosis is Leptokurtic, because it is a positive kurtosis which indicates a higher peak.
-Skewness: 0 indicating a normal distribution.
-Observations:
-The distribution is symmetric.
-The standard deviation is relatively low, indicating less variability.
+- Variable: Stress Level Before
+- Sample Size: 15
+- Mean: 7 The average value of the stress level before dataset.
+- Median: 7 The middle value of the dataset.
+- Mode: 8 indicating 8 as the value that appears more than once.
+- Standard Deviation: 1.463850109 meaning that there is low variability considering that values cluster closely around the mean, data points are consistent.
+- Kurtosis: 1.328205128 Kurtosis is Leptokurtic, because it is a positive kurtosis which indicates a higher peak.
+- Skewness: 0 indicating a normal distribution.
+- Observations:
+  - The distribution is symmetric.
+  - The standard deviation is relatively low, indicating less variability.
 
 
 Result: Post-wellness Test
 
-Variable: Stress Level After
-Sample Size: 15
-Mean: 6.066667 The average value of the stress level after dataset.
-Median: 6 The middle value of the dataset.
-Mode: 6 indicating 6 as the value that appears more than once.
-Standard Deviation: 2.016598 meaning that there is low variability considering that values cluster closely around the mean, data points are consistent.
-Kurtosis: -0.19265 Kurtosis is Platykurtic, because it is a negative kurtosis which indicates a flatter distribution.
-Skewness: -0.10443 it is negatively mildly skewed to the left. Most values cluster around the average, fewer extreme values on the right side.
-
-Observations:
-The standard deviation is approximately 2, indicating moderate variability.
-The platykurtic distribution suggests lighter tails than a normal distribution.
+- Variable: Stress Level After
+- Sample Size: 15
+- Mean: 6.066667 The average value of the stress level after dataset.
+- Median: 6 The middle value of the dataset.
+- Mode: 6 indicating 6 as the value that appears more than once.
+- Standard Deviation: 2.016598 meaning that there is low variability considering that values cluster closely around the mean, data points are consistent.
+- Kurtosis: -0.19265 Kurtosis is Platykurtic, because it is a negative kurtosis which indicates a flatter distribution.
+- Skewness: -0.10443 it is negatively mildly skewed to the left. Most values cluster around the average, fewer extreme values on the right side.
+- Observations:
+  - The standard deviation is approximately 2, indicating moderate variability.
+  - The platykurtic distribution suggests lighter tails than a normal distribution.
 
 Hypothesis Testing:
-H0: The stress level before the wellness program = the stress level after the wellness program
-H1: The stress level before the wellness program is > the stress level after the wellness program
+- H0: The stress level before the wellness program = the stress level after the wellness program
+- H1: The stress level before the wellness program is > the stress level after the wellness program
+
+
 Using a One-tailed test and Paired t-test to determine if the stress level before the wellness program is > the stress level after the wellness program
 t-Test: Paired Two Sample for Means		
 
 ### Results/Findings
 
-P(T<=t) one-tail	0.082158949	
-t Critical one-tail	2.624494068	
-CI 99%
-Alpha Value 0.01
-P-Value 0.0821
-P-value (0.082158949) > Alpha value (0.01) indicating no strong evidence against the null hypothesis.
+- P(T<=t) one-tail	0.082158949	
+- t Critical one-tail	2.624494068	
+- CI 99%
+- Alpha Value 0.01
+- P-Value 0.0821
+- P-value (0.082158949) > Alpha value (0.01) indicating no strong evidence against the null hypothesis.
 Therefore, we fail to reject the null hypothesis and conclude that the stress level before the wellness program = the stress level after the wellness program.
 
 ### Recommendations
